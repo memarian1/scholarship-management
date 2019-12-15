@@ -53,7 +53,6 @@ public class FindScholarshipBySupervisorUseCaseImpl implements FindScholarshipBy
                 }
             }
         }
-
         return result;
     }
 }

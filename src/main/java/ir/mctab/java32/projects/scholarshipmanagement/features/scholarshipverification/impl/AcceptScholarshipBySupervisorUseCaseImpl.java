@@ -18,7 +18,7 @@ public class AcceptScholarshipBySupervisorUseCaseImpl implements AcceptScholarsh
 
         if (user != null && user.getRole().equals("Supervisor")) {
 
-            // connection
+            //connection
             try {
                 Connection connection = DatabaseConfig.getDatabaseConnection();
                 // sql
